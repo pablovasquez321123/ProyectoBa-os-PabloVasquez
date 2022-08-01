@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  height: 65px;
+  width: 100%;
+  background-image: url(./../img/fondoDeBarra.jpeg);
+  background-position: center;
+  padding: 0;
+}
+.navbar .checkbtn {
+  font-size: 30px;
+  margin-top: 10px;
+  float: right;
+  margin-right: 30px;
+  cursor: pointer;
+  display: none;
+}
+.navbar #check {
+  display: none;
+}
+.navbar .barra_logo img {
+  height: 65px;
+}
+.navbar .barra_list {
+  float: right;
+  list-style: none;
+  margin: 0;
+}
+.navbar .barra_link {
+  display: inline-block;
+  line-height: 68px;
+}
+.navbar .barra_link a {
+  text-decoration: none;
+  color: black;
+  margin-right: 15px;
+  font-size: 18px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+.navbar .barra_link a:hover {
+  color: aliceblue;
+  transition: 0.4s;
+  text-shadow: 0 0 5px black;
+}
+
+main {
+  background-image: url(./../img/fondoDeBarra.jpeg);
+  background-position: center;
+}
+
+.container-fluid .jumbotron {
+  background-image: url(./../img/fondo_jumbotron.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.container-fluid .jumbotron_tittle {
+  color: aliceblue;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-shadow: 0 0 10px black;
+}
+.container-fluid .jumbotron_txt {
+  color: aliceblue;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-shadow: 0 0 5px black;
+  font-size: 18px;
+  margin: 0;
+}
+
+.container_productos {
+  background-color: aliceblue;
+  margin-top: 80px;
+}
+.container_productos .tittle_productos {
+  color: aliceblue;
+  text-shadow: 0 0 10px black;
+  width: 100% !important;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 150px;
+  background-color: rgb(213, 213, 213);
+}
+.container_productos .productos_txt {
+  padding: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.container_productos .productos_nombres {
+  color: aliceblue;
+  background-color: black;
+  border-radius: 10px;
+}
+
+footer {
+  height: 70px;
+  background-image: url(./../img/fondoDeBarra.jpeg);
+  background-position: center;
+}
+footer .footer_autor {
+  font-size: 16px;
+  padding-left: 4px;
+  padding-top: 4px;
+  color: black;
+  margin: 0;
+}
+footer .footer_derechos {
+  text-align: center;
+  font-size: 16px;
+  color: black;
+  margin: 0;
+}
+footer .footer_redes {
+  display: flex;
+  justify-content: center;
+}
+footer .footer_redes a {
+  color: black;
+  font-size: 20px;
+  margin-left: 13px;
+  padding: 0;
+}
+footer .footer_redes a:hover {
+  transform: translateY(-15px);
+  transition: 1s;
+  color: aliceblue;
+  text-shadow: 0 0 5px black;
+}
+
+@media (max-width: 800px) {
+  .navbar .checkbtn {
+    display: block;
+  }
+  .navbar .barra_list {
+    position: fixed;
+    width: 100%;
+    height: 100% vh;
+    background-image: url(./../img/fondoDeBarra.jpeg);
+    background-size: cover;
+    background-position: bottom;
+    top: 65px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.7s;
+  }
+  .navbar .barra_link {
+    display: block;
+    margin: 30px 0;
+    line-height: 30px;
+  }
+  .navbar .barra_link a {
+    font-size: 20px;
+  }
+  .navbar #check:checked ~ .barra_list {
+    left: 0;
+  }
+}
+@media (max-width: 596px) {
+  footer {
+    height: 87px;
+  }
+}/*# sourceMappingURL=index.css.map */

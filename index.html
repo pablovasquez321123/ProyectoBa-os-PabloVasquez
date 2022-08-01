@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>sass</title>
+</head>
+
+<body>
+    <!-- inicio de barra de nav -->
+    <header class="navbar">
+        <div class="barra_logo"><img src="./img/logo.jpeg" alt="logo"></div>
+        <nav class="barra">
+
+            <!-- menu hamburguesa inicio -->
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <!-- menu hamburguesa fin -->
+
+            <ul class="barra_list">
+                <li class="barra_link"><a href="index.html">home</a></li>
+                <li class="barra_link"><a href="#">sign up</a></li>
+                <li class="barra_link"><a href="#">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- fin de barra de nav -->
+    <main>
+
+        <!-- jumbotron inicio -->
+        <div class="container-fluid text-center">
+            <div class="jumbotron">
+                <div data-aos="zoom-in">
+                    <h1 class="jumbotron_tittle">Bienvenido a SanitHome</h1>
+                </div>
+                <div data-aos="fade-left">
+                    <p class="jumbotron_txt">Tenemos lo que necesitas para tu nuevo baño moderno!</p>
+                </div>
+            </div>
+            <p class="jumbotron_txt">Registrate y contactanos!</p>
+
+            <!-- button -->
+            <div data-aos="fade-up" data-aos-duration="3000">
+                <button type="button" class="btn btn-dark">Registrarse!</button>
+            </div>
+            <!-- button -->
+
+        </div>
+        <!-- jumbotron fin -->
+
+        <!-- card de productos de baños inicio -->
+        <section class="container-fluid text-center container_productos">
+            <h2 class="tittle_productos">Productos de Baño</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="caja-productos">
+                        <img src="./img/hinodoro.jpeg" alt="hinodoro" class="img-fluid rounded">
+                        <h3 class="productos_nombres">Hinodoro</h3>
+                        <div data-aos="zoom-in">
+                            <p class="productos_txt" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, dolores, dolore
+                                nesciunt
+                                harum vel voluptas ex modi iste facilis, quis quibusdam? Alias cupiditate ipsam sunt!
+                                Eos
+                                perspiciatis laboriosam maxime qui.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="caja-productos">
+                        <img src="./img/lavamanos con cristal.jpeg" alt="lavamanos" class="img-fluid rounded">
+                        <h3 class="productos_nombres">Lavamanos de cristal</h3>
+                        <div data-aos="zoom-in">
+                            <p class="productos_txt" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, dolores, dolore
+                                nesciunt
+                                harum vel voluptas ex modi iste facilis, quis quibusdam? Alias cupiditate ipsam sunt!
+                                Eos
+                                perspiciatis laboriosam maxime qui.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="caja-productos">
+                        <img src="./img/set de accesorios cromo.jpeg" alt="accesorios cromo" class="img-fluid rounded">
+                        <h3 class="productos_nombres">Set de accesorios cromo</h3>
+                        <div data-aos="zoom-in">
+                            <p class="productos_txt" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, dolores, dolore
+                                nesciunt
+                                harum vel voluptas ex modi iste facilis, quis quibusdam? Alias cupiditate ipsam sunt!
+                                Eos
+                                perspiciatis laboriosam maxime qui.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="caja-productos">
+                        <img src="./img/espejo.jpeg" alt="espejo" class="img-fluid rounded">
+                        <h3 class="productos_nombres">Espejo</h3>
+                        <div data-aos="zoom-in">
+                            <p class="productos_txt" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, dolores, dolore
+                                nesciunt
+                                harum vel voluptas ex modi iste facilis, quis quibusdam? Alias cupiditate ipsam sunt!
+                                Eos
+                                perspiciatis laboriosam maxime qui.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="caja-productos">
+                        <img src="./img/cesto de basura.jpeg" alt="cesto de basura" class="img-fluid rounded">
+                        <h3 class="productos_nombres">Cesto de basura</h3>
+                        <div data-aos="zoom-in">
+                            <p class="productos_txt" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, dolores, dolore
+                                nesciunt
+                                harum vel voluptas ex modi iste facilis, quis quibusdam? Alias cupiditate ipsam sunt!
+                                Eos
+                                perspiciatis laboriosam maxime qui.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="caja-productos">
+                        <img src="./img/cabina de ducha.jpeg" alt="cabina de ducha" class="img-fluid rounded">
+                        <h3 class="productos_nombres">Cabina de ducha</h3>
+                        <div data-aos="zoom-in">
+                            <p class="productos_txt" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, dolores, dolore
+                                nesciunt
+                                harum vel voluptas ex modi iste facilis, quis quibusdam? Alias cupiditate ipsam sunt!
+                                Eos
+                                perspiciatis laboriosam maxime qui.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- card de productos de baños fin -->
+
+    </main>
+
+    <!-- footer inicio -->
+    <footer>
+        <h6 class="footer_autor">Autor: Pablo Vasquez</h6>
+        <h6 class="footer_derechos">Copyright© 2022 - Página creada por pablo_vz - Todos los derechos reservados</h6>
+        <div class="footer_redes">
+            <a href="https://www.facebook.com/" target="_blank" class="redes-iconos"><i
+                    class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/" target="_blank" class="redes-iconos"><i
+                    class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.youtube.com/" target="_blank" class="redes-iconos"><i
+                    class="fa-brands fa-youtube"></i></a>
+        </div>
+    </footer>
+    <!-- footer fin -->
+
+
+
+    <!-- scripts inicio -->
+
+    <!-- script bootstrap inicio -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+        crossorigin="anonymous"></script>
+    <!-- script bootstrap fin -->
+
+    <!-- script AOS inicio -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- script AOS fin -->
+
+    <!-- scripts fin -->
+</body>
+
+</html>
